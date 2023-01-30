@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import Switch from "react-switch";
-import { shade } from "polished";
-import { BsFillCaretRightFill, BsFillCaretLeftFill } from "react-icons/bs";
-import { FiSun, FiMoon } from "react-icons/fi";
+import styled from 'styled-components';
+import Switch from 'react-switch';
+import { shade } from 'polished';
+import { BsFillCaretRightFill, BsFillCaretLeftFill } from 'react-icons/bs';
+import { FiSun, FiMoon } from 'react-icons/fi';
 
 export const Container = styled.div`
   height: 7%;
@@ -32,14 +32,14 @@ export const ThemeSwitch = styled(Switch).attrs(({ theme }) => ({
 }))``;
 
 export const PreviousMonth = styled(BsFillCaretLeftFill).attrs(() => ({
-  size: "20px",
+  size: '20px',
 }))`
   color: ${({ theme }) => theme.colors.lightText};
   cursor: pointer;
 `;
 
 export const NextMonth = styled(BsFillCaretRightFill).attrs(() => ({
-  size: "20px",
+  size: '20px',
 }))`
   color: ${({ theme }) => theme.colors.lightText};
   cursor: pointer;

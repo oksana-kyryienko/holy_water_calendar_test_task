@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { Container, FooterText } from "./style";
+import { Container, FooterText } from './style';
 
 const Footer: React.FC = () => {
   return (

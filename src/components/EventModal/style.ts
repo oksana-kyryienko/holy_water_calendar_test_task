@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { shade } from "polished";
-import { VscClose } from "react-icons/vsc";
-import { ImCheckmark } from "react-icons/im";
+import styled from 'styled-components';
+import { shade } from 'polished';
+import { VscClose } from 'react-icons/vsc';
+import { ImCheckmark } from 'react-icons/im';
 
 export const Container = styled.div`
   height: 500px;
@@ -19,7 +19,7 @@ export const Container = styled.div`
   box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.45);
 `;
 interface ColorProps {
-  color: "cyan" | "salmon" | "pink" | "green" | "yellow";
+  color: 'cyan' | 'salmon' | 'pink' | 'green' | 'yellow';
   selected: boolean;
   onClick: () => void;
 }
@@ -36,7 +36,7 @@ export const Color = styled.div<ColorProps>`
 `;
 
 export const CheckMark = styled(ImCheckmark).attrs(({ theme }) => ({
-  size: "15px",
+  size: '15px',
 }))`
   color: ${({ theme }) => theme.colors.darkText};
 `;
@@ -114,7 +114,7 @@ export const DateContainer = styled.div`
 `;
 
 export const Close = styled(VscClose).attrs(({ theme }) => ({
-  size: "35px",
+  size: '35px',
 }))`
   color: ${({ theme }) => theme.colors.lightText};
   position: absolute;
