@@ -35,6 +35,7 @@ export const Color = styled.div<ColorProps>`
   cursor: pointer;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const CheckMark = styled(ImCheckmark).attrs(({ theme }) => ({
   size: '15px',
 }))`
@@ -113,6 +114,7 @@ export const DateContainer = styled.div`
   }
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const Close = styled(VscClose).attrs(({ theme }) => ({
   size: '35px',
 }))`

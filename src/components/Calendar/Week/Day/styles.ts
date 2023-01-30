@@ -72,6 +72,7 @@ export const DayOfMonth = styled.p<DayOfMonthProps>`
       : theme.colors.lightText};
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const Close = styled(VscClose).attrs(({ theme }) => ({
   size: '35px',
 }))`

@@ -91,7 +91,7 @@ const EventModal: React.FC<EventModalProps> = ({ type }) => {
           onChange={({ target }) => setEventDescription(target.value)}
           placeholder="Description"
         />
-            <ColorPicker>
+        <ColorPicker>
           <p>Color</p>
           <ColorContainer>
             <Color

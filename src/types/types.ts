@@ -23,6 +23,7 @@ export interface ThemeReducerAction {
   data: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface EditEventAction {
   event: EventProps;
   oldEvent: EventProps;
